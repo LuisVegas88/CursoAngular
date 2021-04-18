@@ -1,0 +1,9 @@
+
+ <h3>Personajes</h3>
+        <hr>
+        <ul>
+            <li *ngFor="let p of personajes">
+               {{p.nombre}} - {{p.poder | number}}
+            </li>
+            <!--El number es para que ponga un . en los miles de los numeros-->
+        </ul> 
